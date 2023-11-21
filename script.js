@@ -20,12 +20,12 @@ SportsCar.prototype.getTopSpeed = function() {
   return this.topSpeed;
 };
 
-var car = new Car("Toyota", "Camry");
-console.log(car.getMakeModel()); // "Toyota Camry"
+// var car = new Car("Toyota", "Camry");
+// console.log(car.getMakeModel()); 
 
-var sportsCar = new SportsCar("Ferrari", "488 GTB", 202);
-console.log(sportsCar.getMakeModel()); // "Ferrari 488 GTB"
-console.log(sportsCar.getTopSpeed());
+// var sportsCar = new SportsCar("Ferrari", "488 GTB", 202);
+// console.log(sportsCar.getMakeModel()); 
+// console.log(sportsCar.getTopSpeed());
 
 // Do not change the code below
 window.Car = Car;
